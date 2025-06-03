@@ -4,10 +4,10 @@ import cors from "cors";
 const app = express();
 
 const db = mysql.createConnection({
-  host: "localhost",
-  user: "root",
-  dbPass: "",
-  database: "shop",
+  host: "sql101.infinityfree.com",
+  user: "if0_39141097",
+  dbPass: "hHhSJ8t8k4Irn",
+  database: "if0_39141097_shop",
 });
 // Allow CORS for frontend
 app.use(
